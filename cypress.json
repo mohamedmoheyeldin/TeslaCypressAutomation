@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://www.tesla.com/",
+  "nodeVersion": "system",
+  "includeShadowDom": true,
+  "experimentalStudio": true,
+  "experimentalFetchPolyfill": true,
+  "experimentalInteractiveRunEvents": true,
+  "experimentalSourceRewriting": true,
+  "retries": 1,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "projectId": "ecfwq4"
+}
