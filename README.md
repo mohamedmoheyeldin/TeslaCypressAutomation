@@ -3,8 +3,6 @@
 
 * [Tesla](https://www.tesla.com/)
 * [Cypress](https://docs.cypress.io/)
-
-
 * [Project Link](https://github.com/mohamedmoheyeldin/Mortgage-Calculator)
 
 <!-- SonarCloud Stats -->
