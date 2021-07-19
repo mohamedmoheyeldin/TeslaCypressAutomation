@@ -17,6 +17,9 @@
 <!-- End-to-end tests -->
 [![End-to-end tests](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/EndToEndTests.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/EndToEndTests.yml)
 
+<!-- Daily tests -->
+[![Daily Build](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/DailyBuild.yml/badge.svg)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/DailyBuild.yml)
+
 <!-- My Repository's Stats -->
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=mohamedmoheyeldin&show_icons=true)
 
