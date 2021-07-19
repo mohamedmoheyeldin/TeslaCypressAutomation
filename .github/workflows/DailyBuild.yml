@@ -11,9 +11,13 @@ jobs:
 
     strategy:
       matrix:
-          fail-fast: false
-          containers: [ 1, 2, 3 ]
-          node-version: [12.x, 14.x, 16.x]
+        node-version: [12.x, 14.x, 16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+        fail-fast: false
+        matrix:
+        containers: [ 1, 2, 3 ]
+
 
     steps:
       - uses: actions/checkout@v2
