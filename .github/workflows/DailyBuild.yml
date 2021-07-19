@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
-        node-version: [12.x, 14.x, 16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-        fail-fast: false
-        matrix:
+        # run 3 copies of the current job in parallel
+        node-version: [ 12.x, 14.x, 16.x ]
         containers: [ 1, 2, 3 ]
 
 
