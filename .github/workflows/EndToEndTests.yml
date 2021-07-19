@@ -18,7 +18,8 @@ jobs:
       fail-fast: false
       matrix:
         # run 3 copies of the current job in parallel
-        containers: [1, 2, 3]
+        containers: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -30,7 +31,7 @@ jobs:
         with:
           record: true
           parallel: true
-          group: 'Actions example'
+
         env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
