@@ -21,6 +21,10 @@
 ### Most Used Languages
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedmoheyeldin&theme=blue-green)
 
+<!-- Contributors Badge -->
+### Contributors Badge
+![Your Repository's Stats](https://contrib.rocks/image?repo=mohamedmoheyeldin/TeslaCypressAutomation)
+
 
 <!-- CONTACT -->
 ## Contact
