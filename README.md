@@ -9,10 +9,9 @@
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=mohamedmoheyeldin_TeslaCypressAutomation)](https://sonarcloud.io/dashboard?id=mohamedmoheyeldin_TeslaCypressAutomation)
 
 <!-- ossar-analysis Stats -->
-![example workflow](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/ossar-analysis.yml/badge.svg)
-
+[![OSSAR analysis](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/ossar-analysis.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/ossar-analysis.yml)
 <!-- codeql-analysis Stats -->
-![example workflow](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/codeql-analysis.yml/badge.svg)
+[![CodeQL analysis](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/codeql-analysis.yml)
 
 <!-- My Repository's Stats -->
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=mohamedmoheyeldin&show_icons=true)
