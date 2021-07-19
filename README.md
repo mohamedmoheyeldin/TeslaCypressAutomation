@@ -10,8 +10,12 @@
 
 <!-- ossar-analysis Stats -->
 [![OSSAR analysis](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/ossar-analysis.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/ossar-analysis.yml)
+
 <!-- codeql-analysis Stats -->
 [![CodeQL analysis](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/codeql-analysis.yml)
+
+<!-- End-to-end tests -->
+[![End-to-end tests](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/EndToEndTests.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/EndToEndTests.yml)
 
 <!-- My Repository's Stats -->
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=mohamedmoheyeldin&show_icons=true)
