@@ -20,6 +20,5 @@ context('Verify Landing Page', () => {
         myLanding.shopNowButton().should('be.visible').and('contain.text', 'Shop Now')
         myLanding.footer().should('be.visible')
 
-
     })
 })
