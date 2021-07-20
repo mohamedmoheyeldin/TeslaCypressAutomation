@@ -1,4 +1,5 @@
 // ***********************************************
+/// <reference types="cypress" />
 // This example commands.js shows you how to
 // create various custom commands and overwrite
 // existing commands.
@@ -24,4 +25,27 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-import 'cypress-wait-until';
+
+import landing_page from "../pages/landing_page.spec";
+
+
+const myLanding = new landing_page()
+
+
+beforeEach(() => {
+    cy.visit('/')
+    myLanding.logo().should('be.visible')
+    myLanding.centerMenu().should('be.visible')
+})
+
+Cypress.Commands.add('verifyHomePageSections', (headLineText, leftButtonText, rightButtonText) => {
+    myLanding.headLineText().should('be.visible').and('have.text', headLineText)
+    myLanding.leftButton().should('be.visible').and('contain.text', leftButtonText)
+    myLanding.rightButton().should('be.visible').and('contain.text', rightButtonText).scrollIntoView()
+    cy.wait(800)
+
+})
+
+
+
+
