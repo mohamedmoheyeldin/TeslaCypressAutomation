@@ -22,48 +22,68 @@ class mode_s_home_page {
         return cy.get('.callout--hide-on-mobile .tds-text--h2');
     }
 
-    purchasePriceTab() {
-        return cy.get('[id="purchase_price-tab"]');
+    headerSection_2() {
+        return cy.get('div#block-tesla-frontend-content > div:nth-of-type(1)');
     }
 
-    PotentialSavingsTab() {
-        return cy.get('[id="potential_savings-tab"]');
+    headerSection_3() {
+        return cy.get('[id="tesla-carousel-3924--carousel"]');
     }
 
-    longRangeOption() {
-        return cy.get('[control-id="ControlID-6"]');
+    headerSection_4() {
+        return cy.get('.tcl-media-with-text--checkerboard .tcl-media-with-text--checkerboard__row--media-left:nth-of-type(1)');
     }
 
-    plaidOption() {
-        return cy.get('[data-id=\'\\$MTS11\']');
+    headerSection_5() {
+        return cy.get('.tcl-media-with-text--checkerboard__row--media-right:nth-of-type(4) .tcl-media-with-text__cell--position-left');
     }
 
-    paintPearlWhiteMultiCoat() {
-        return cy.get('.group-container [role=\'none\']:nth-of-type(2) .child-group--option_details .observer-placeholder:nth-of-type(1)');
+    headerSection_6() {
+        return cy.get('section:nth-of-type(2)  .hero.hero--with-banner.hero--with-callouts.tcl-objectfit-position-- .tds-flex--col_1of3.tds-flex-item');
     }
 
-    paintSolidBlack() {
-        return cy.get('.group-container [role=\'none\']:nth-of-type(2) .child-group--option_details .observer-placeholder:nth-of-type(2)');
+    headerSection_7() {
+        return cy.get('.performance__asset');
     }
 
-    paintMidnightSilverMetallic() {
-        return cy.get('.group-container [role=\'none\']:nth-of-type(2) .child-group--option_details .observer-placeholder:nth-of-type(3)');
+    headerSection_8() {
+        return cy.get('[class="mktg-carousel-items mktg-js-carousel-items"]');
     }
 
-    paintDeepBlueMetallic() {
-        return cy.get('.group-container [role=\'none\']:nth-of-type(2) .child-group--option_details .observer-placeholder:nth-of-type(4)');
+    headerSection_9() {
+        return cy.get('#block-tesla-frontend-content [data-gtm-event] .banner-subheader.tcl-animate--revealed');
     }
 
-    paintRedMultiCoat() {
-        return cy.get('.group-container [role=\'none\']:nth-of-type(2) .child-group--option_details .observer-placeholder:nth-of-type(5)');
+    headerSection_10() {
+        return cy.get('#block-tesla-frontend-content .tds-colorscheme--dark:nth-child(9) .tcl-media-with-text__cell--type-text.tcl-media-with-text__cell--position-right');
     }
 
-    Wheels19Inch() {
-        return cy.get('.group-container [role=\'none\']:nth-of-type(3) .child-group--option_details .observer-placeholder:nth-of-type(1)');
+    headerSection_11() {
+        return cy.get('.banner--right .tds-flex');
     }
 
-    Wheels21Inch() {
-        return cy.get('.group-container [role=\'none\']:nth-of-type(3) .child-group--option_details .observer-placeholder:nth-of-type(2)');
+    headerSection_12() {
+        return cy.get('[id="tesla-range-carousel-2-410--carousel"]');
+    }
+
+    headerSection_13() {
+        return cy.get('.banner--left .tds-flex');
+    }
+
+    headerSection_14() {
+        return cy.get('[class="tds-text--h2 tcl-specifications__title tcl-animate--to-reveal tcl-animate--revealed"]');
+    }
+
+    headerSection_15() {
+        return cy.get('[class="tds-flex-item order--content"]');
+    }
+
+    footer() {
+        return cy.get('[class="tds-footer-nav"]');
+    }
+
+    oderNowButton() {
+        return cy.get('.tcl-button-group.tcl-button-group--2-buttons.tcl-button-group--type-horizontal.tds-btn_group > a[title=\'Order Now\']');
     }
 
 

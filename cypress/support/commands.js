@@ -35,6 +35,8 @@ const model_S = require('../fixtures/model_s.json')
 
 
 beforeEach(() => {
+    cy.clearCookies()
+    cy.clearLocalStorage()
     cy.visit('/')
     myLanding.logo().should('be.visible')
     myLanding.centerMenu().should('be.visible')
@@ -60,7 +62,39 @@ Cypress.Commands.add('navigateToModel_S_Page', () => {
     myMode_s.peakPower().should('be.visible').and('have.text', model_S.specification.peakPower)
 })
 
-
+Cypress.Commands.add('model_S_Page_scroll_to_end', () => {
+    myMode_s.headerSection_2().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_3().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_4().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_5().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_6().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_7().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_8().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_9().should('be.visible').and('have.text', 'Designed for Efficiency').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_10().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_11().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_12().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_13().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_14().should('be.visible').and('contain.text', 'Model S').scrollIntoView()
+    cy.wait(500)
+    myMode_s.headerSection_15().should('be.visible').and('contain.text', 'Model S').scrollIntoView()
+    cy.wait(500)
+    myMode_s.footer().should('be.visible').scrollIntoView()
+    cy.wait(500)
+    myMode_s.oderNowButton().should('be.visible').and('have.text.text', 'Order Now')
+})
 
 
 
