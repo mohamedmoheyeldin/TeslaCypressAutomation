@@ -4,25 +4,5 @@
     "accelerationTime": "1.99",
     "topSpeed": "200",
     "peakPower": "1,020"
-  },
-  "prices": {
-    "cashPrice": "-37.3159",
-    "leasePrice": "81.1496",
-    "loanPrice": "81.1496"
-  },
-  "BasicWithFullSelfDrivingCapability": {
-    "cashPrice": "-37.3159",
-    "leasePrice": "81.1496",
-    "loanPrice": "81.1496"
-  },
-  "fullLoaded": {
-    "cashPrice": "-37.3159",
-    "leasePrice": "81.1496",
-    "loanPrice": "81.1496"
-  },
-  "fullLoadedWithFullSelfDrivingCapability": {
-    "cashPrice": "-37.3159",
-    "leasePrice": "81.1496",
-    "loanPrice": "81.1496"
   }
 }
