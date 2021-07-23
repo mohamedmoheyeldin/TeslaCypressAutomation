@@ -1,5 +1,4 @@
-{
-  "baseUrl": "https://www.tesla.com/",
+baseUrl": "https://www.tesla.com/",
   "nodeVersion": "system",
   "includeShadowDom": true,
   "experimentalStudio": true,
@@ -8,5 +7,10 @@
   "experimentalSourceRewriting": true,
   "retries": 1,
   "viewportHeight": 1080,
-  "viewportWidth": 1920
+  "viewportWidth": 1920,
+  "execTimeout": 80000,
+  "pageLoadTimeout": 80000,
+  "requestTimeout": 80000,
+  "responseTimeout": 80000,
+  "taskTimeout": 80000
 }
