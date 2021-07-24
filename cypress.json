@@ -13,5 +13,6 @@
   "pageLoadTimeout": 80000,
   "requestTimeout": 80000,
   "responseTimeout": 80000,
-  "taskTimeout": 80000
+  "taskTimeout": 80000,
+  "projectId": "71bw92"
 }
