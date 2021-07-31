@@ -8,9 +8,6 @@
 <!-- SonarCloud Stats -->
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=mohamedmoheyeldin_TeslaCypressAutomation)](https://sonarcloud.io/dashboard?id=mohamedmoheyeldin_TeslaCypressAutomation)
 
-<!-- ossar-analysis Stats -->
-[![OSSAR analysis](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/ossar-analysis.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/ossar-analysis.yml)
-
 <!-- codeql-analysis Stats -->
 [![CodeQL analysis](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation/actions/workflows/codeql-analysis.yml)
 
