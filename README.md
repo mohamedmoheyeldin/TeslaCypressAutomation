@@ -3,7 +3,7 @@
 
 * [Tesla](https://www.tesla.com/)
 * [Cypress](https://docs.cypress.io/)
-* [Project Link](https://github.com/mohamedmoheyeldin/Mortgage-Calculator)
+* [Project Link](https://github.com/mohamedmoheyeldin/TeslaCypressAutomation)
 
 <!-- SonarCloud Stats -->
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=mohamedmoheyeldin_TeslaCypressAutomation)](https://sonarcloud.io/dashboard?id=mohamedmoheyeldin_TeslaCypressAutomation)
