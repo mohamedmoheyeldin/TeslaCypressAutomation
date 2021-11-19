@@ -1,12 +1,12 @@
 /// <reference types="cypress" />
 
-import mode_s_home_page from "../../../../../pages/model_s/mode_s_home_page.spec";
+import Mode_s_home_page from "../../../../../pages/model_s/mode_s_home_page.spec";
 
-const landing_page = require("../../../../../pages/landing_page.spec");
+const Landing_page = require("../../../../../pages/landing_page.spec");
 
 
-const myLanding = new landing_page()
-const myMode_s = new mode_s_home_page()
+const myLanding = new Landing_page()
+const myMode_s = new Mode_s_home_page()
 
 
 

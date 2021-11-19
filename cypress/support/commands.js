@@ -38,7 +38,6 @@ beforeEach(() => {
     cy.visit('/')
     myLanding.logo().should('be.visible')
     myLanding.centerMenu().should('be.visible')
-
 })
 
 Cypress.Commands.add('verifyHomePageSections', (headLineText, leftButtonText, rightButtonText) => {

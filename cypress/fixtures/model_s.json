@@ -4,5 +4,14 @@
     "accelerationTime": "1.99",
     "topSpeed": "200",
     "peakPower": "1,020"
+  },
+
+  "colors": {
+    "PearlWhiteMultiCoat": "[class=\"group--option--label\"]",
+    "accelerationTime": "1.99",
+    "topSpeed": "200",
+    "peakPower": "1,020"
   }
+
+
 }

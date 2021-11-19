@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
 
-import landing_page from "../../pages/landing_page.spec";
+import Landing_page from "../../pages/landing_page.spec";
 
 
-const myLanding = new landing_page()
+const myLanding = new Landing_page()
 
 context('Verify Landing Page', () => {
 
