@@ -10,9 +10,6 @@ jobs:
   test:
     name: Cypress run
     runs-on: ubuntu-latest
-    strategy:
-
-      fail-fast: false
 
     steps:
       - name: Checkout
